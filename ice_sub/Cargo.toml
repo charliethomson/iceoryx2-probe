@@ -1,0 +1,15 @@
+[package]
+name = "ice_sub"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+iceoryx2 = "0.4.1"
+tokio = { version = "1.40.0", features = ["full"] }
+ice_shared = { path = "../ice_shared" }
+chrono = "0.4.38"
+tokio-util = "0.7.12"
+log = "0.4.22"
+fern = "0.6.2"
+clap = { version = "4.5.18", features = ["derive"] }

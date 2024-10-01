@@ -1,0 +1,4 @@
+[workspace]
+resolver = "2"
+members = ["ice_pub", "ice_shared", "ice_sub"]
+

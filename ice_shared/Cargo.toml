@@ -1,0 +1,12 @@
+[package]
+name = "ice_shared"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+iceoryx2 = "0.4.1"
+anyhow = "1.0.89"
+tokio = { version = "1.40.0", features = ["full"] }
+log = "0.4.22"
+fern = "0.6.2"
